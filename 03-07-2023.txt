@@ -1,0 +1,38 @@
+(1)
+
+a=int(input("Enter an integer number:"))
+
+if(a%2==0):
+    
+    print("Even Number")
+
+else:
+   
+    print("Odd Number")
+
+
+
+
+
+
+
+(2)
+
+a=97
+
+b=101
+
+c=37
+
+if(a>b and a>c):
+
+    print("a is greatest number")
+
+elif(b>c):
+ 
+    print("b is greatest number")
+
+else:
+   
+    print("c is greatest number")
+
