@@ -1,0 +1,37 @@
+Powers program:
+
+m=int(input("Enter a number:"))
+
+n=int(input("Enter a number:"))
+
+p=pow(m,n)
+
+print(p)
+
+
+Factors program:
+
+n=int(input("Enter a number:"))
+
+for i in range(1,n+1):
+      
+      if(n%i==0):
+          
+          print(i)
+
+
+
+Factorial program:
+
+n=int(input("Enter a number:"))
+
+f=1
+for i in range(1,n+1):
+      
+      f=f*i
+
+print(f)
+
+
+
+
