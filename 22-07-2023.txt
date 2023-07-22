@@ -1,0 +1,13 @@
+PROGRAM ON FINDING THE VEHICLE COUNT ON WHEELERS COUNT:s
+
+w=540
+
+v=200
+
+tw=((4*v)-w)//2
+
+fw=v-tw
+
+print(tw,"=two wheeler")
+
+print(fw,"=four wheeler")
