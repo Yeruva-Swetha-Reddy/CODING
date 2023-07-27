@@ -1,0 +1,15 @@
+nums=[3,4,56,78]
+
+s=""
+
+for i in nums:
+
+    s+=str(i)
+
+    res=[]
+
+for i in s:
+
+    res.append(int(i))
+
+print(res)
