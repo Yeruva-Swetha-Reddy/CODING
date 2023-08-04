@@ -1,0 +1,19 @@
+PRINT 0'S AT END:
+
+nums=[0,1,2,4,0,8,0]
+
+n1=[]
+
+n2=[]
+
+for i in nums:
+
+    if(i==0):
+
+        n1.append(i)
+
+    else:
+
+        n2.append(i)
+
+print(n2+n1)
