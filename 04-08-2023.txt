@@ -1,4 +1,4 @@
-PRINT 0'S AT END:
+1.PRINT 0'S AT END:
 
 nums=[0,1,2,4,0,8,0]
 
@@ -17,3 +17,19 @@ for i in nums:
         n2.append(i)
 
 print(n2+n1)
+
+2.
+n=int(input("Enter a Number:"))
+
+if n%2==0:
+
+    if n>6 and n<=20:
+
+        print("weired")
+
+    else:
+
+        print("not weired")
+
+else:
+    print("weired")
