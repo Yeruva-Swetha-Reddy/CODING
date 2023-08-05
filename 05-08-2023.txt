@@ -1,0 +1,21 @@
+1.REVERSE ORDER:
+
+s="Welcome to India".split()
+
+n=" "
+
+for i in s[:: -1]:
+
+    n+=i+" "
+
+st=n[: -1]
+print(st)
+
+
+2.PRINT POWERS OF NUMBERS:
+
+n=int(input("Enter a number:"))
+
+for i in range(n+1):
+
+    print(i**2)
