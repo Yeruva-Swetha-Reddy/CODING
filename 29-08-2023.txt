@@ -1,0 +1,61 @@
+1.Adding of two strings converting to integers:
+
+n1="123"
+
+n2="11"
+
+l1=int(n1)
+
+l2=int(n2)
+
+l=l1+l2
+
+print(str(l))
+
+
+
+2.findout the missing value:
+
+n=[0,2,3]
+
+k=0
+
+for i in range(len(n)+1):
+
+    if i not in n:
+
+        k+=i
+
+        print(k)
+
+
+
+
+3.Print Happy number:
+
+
+n=19
+
+x=n
+
+while n>5:
+
+    s=0
+
+    while n!=0:
+
+        r=n%10
+
+        s=s+r**2
+
+        n=n//10
+
+    n=s
+
+if s==1:
+
+    print("Happy number")
+
+else:
+
+    print("not a Happy number")
