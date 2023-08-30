@@ -1,0 +1,58 @@
+1.PERFECT NUMBER:
+
+n=int(input("Enter a number:"))
+
+s=0
+
+for i in range(1,n):
+
+    if n%i==0:
+
+        s=s+i
+
+if s==n:
+
+    print("Perfect number")
+
+else:
+
+    print("Not a Perfect number")
+
+
+2.PRINT THE 2ND TERM "5":
+
+n=[2,3,4,6,6,5]
+
+p=set(n)
+
+k=[]
+
+for i in p:
+
+    k.append(i)
+
+k.sort()
+
+print(k[-2])
+
+
+
+3.PRINT A COUNT OF EVEN NUMBERS IN THE LIST:
+
+n=[12,345,2,6,7890]
+
+k=[]
+
+for i in n:
+
+    k.append(str(i))
+
+c=0
+
+for i in k:
+
+    if len(i)%2==0:
+
+        c+=1
+
+print(c)
